@@ -1,44 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uncovering Lost Technologies | Developing Technologies for Humanity</title>
     <meta name="description" content="Discover hidden technologies and unlock human potential through sustainable solutions and free energy development.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
-        <nav class="container mx-auto px-6 py-4" x-data="{ isOpen: false }">
+        <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <div class="text-xl font-bold tracking-tight">
-                    <a href="/" class="text-white hover:text-blue-400 transition duration-300">NDEAVR</a>
+                    <a href="https://Ndeavr.github.io/uncovering-lost-technologies-2025-02-05-id4ko" class="text-white hover:text-blue-400 transition duration-300">NDEAVR</a>
                 </div>
-                <button @click="isOpen = !isOpen" class="md:hidden focus:outline-none">
-                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                        <path x-show="!isOpen" d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
-                        <path x-show="isOpen" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden focus:outline-none" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#features" class="hover:text-blue-400 transition duration-300">Features</a>
                     <a href="#benefits" class="hover:text-blue-400 transition duration-300">Benefits</a>
+                    <a href="#about" class="hover:text-blue-400 transition duration-300">About</a>
+                    <a href="#testimonials" class="hover:text-blue-400 transition duration-300">Testimonials</a>
                     <a href="#faq" class="hover:text-blue-400 transition duration-300">FAQ</a>
-                    <a href="https//www.ndeavr.com/making-contact" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-full transition duration-300 transform hover:scale-105">Contact Us</a>
+                    <a href="https://www.ndeavr.com/making-contact" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-full transition duration-300 transform hover:scale-105">Contact Us</a>
                 </div>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 space-y-4">
+                <a href="#features" class="block py-2 hover:text-blue-400 transition duration-300">Features</a>
+                <a href="#benefits" class="block py-2 hover:text-blue-400 transition duration-300">Benefits</a>
+                <a href="#about" class="block py-2 hover:text-blue-400 transition duration-300">About</a>
+                <a href="#testimonials" class="block py-2 hover:text-blue-400 transition duration-300">Testimonials</a>
+                <a href="#faq" class="block py-2 hover:text-blue-400 transition duration-300">FAQ</a>
+                <a href="https://www.ndeavr.com/making-contact" class="block py-2 hover:text-blue-400 transition duration-300">Contact Us</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-32 overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800/90 to-gray-900"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="text-center max-w-4xl mx-auto">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Uncovering Lost Technologies</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">Developing technologies to help humanity advance into a new era of consciousness and sustainability.</p>
-                    <a href="https//www.ndeavr.com/making-contact" class="inline-block px-8 py-4 text-lg font-semibold bg-blue-600 hover:bg-blue-700 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">Join the Evolution</a>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">Revolutionizing humanity's future through rediscovered ancient wisdom and cutting-edge innovation. Join us in unlocking the secrets of sustainable energy and advanced consciousness technologies.</p>
+                    <a href="https://www.ndeavr.com/making-contact" class="inline-block px-8 py-4 text-lg font-semibold bg-blue-600 hover:bg-blue-700 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">Begin Your Journey</a>
                 </div>
             </div>
         </section>
@@ -47,23 +64,23 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Breakthrough Technologies</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-700/50 rounded-2xl p-8 hover:bg-gray-700 transition duration-300 transform hover:scale-105">
+                    <div class="bg-gray-700/50 rounded-2xl p-8 hover:bg-gray-700 transition duration-300 transform hover:scale-105 hover:shadow-xl">
                         <div class="h-16 w-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
                             <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-semibold mb-4">Recover Lost Technologies</h3>
-                        <p class="text-gray-300 leading-relaxed">Rediscovering ancient wisdom and forgotten innovations to bridge the gap between past and future.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Advanced Energy Systems</h3>
+                        <p class="text-gray-300 leading-relaxed">Harness the power of zero-point energy and quantum mechanics to create unlimited, sustainable power sources. Our breakthrough technologies tap into the fabric of space-time itself, providing clean energy solutions that could power humanity's future.</p>
                     </div>
-                    <div class="bg-gray-700/50 rounded-2xl p-8 hover:bg-gray-700 transition duration-300 transform hover:scale-105">
+                    <div class="bg-gray-700/50 rounded-2xl p-8 hover:bg-gray-700 transition duration-300 transform hover:scale-105 hover:shadow-xl">
                         <div class="h-16 w-16 bg-purple-600 rounded-full flex items-center justify-center mb-6">
                             <svg class="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-semibold mb-4">Unlock Human Potential</h3>
-                        <p class="text-gray-300 leading-relaxed">Empowering individuals to reach their highest potential through advanced consciousness technologies.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Consciousness Enhancement</h3>
+                        <p class="text-gray-300 leading-relaxed">Access higher states of awareness through our revolutionary neural interface technology. Combining ancient meditation techniques with modern neuroscience, we've developed methods to expand human consciousness and unlock dormant abilities.</p>
                     </div>
                 </div>
             </div>
@@ -73,17 +90,91 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Revolutionary Benefits</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300">
-                        <h3 class="text-2xl font-semibold mb-4">Free Energy</h3>
-                        <p class="text-gray-300 leading-relaxed">Sustainable, unlimited energy solutions that break free from traditional limitations.</p>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4">Infinite Energy</h3>
+                        <p class="text-gray-300 leading-relaxed">Access limitless clean energy through quantum field manipulation, eliminating dependency on fossil fuels and reducing global carbon emissions by up to 90%.</p>
                     </div>
-                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300">
-                        <h3 class="text-2xl font-semibold mb-4">Human Ascension</h3>
-                        <p class="text-gray-300 leading-relaxed">Facilitating the evolution of human consciousness and capabilities.</p>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4">Enhanced Cognition</h3>
+                        <p class="text-gray-300 leading-relaxed">Experience up to 300% improvement in mental clarity, memory retention, and problem-solving capabilities through our consciousness expansion protocols.</p>
                     </div>
-                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300">
-                        <h3 class="text-2xl font-semibold mb-4">Sustainability</h3>
-                        <p class="text-gray-300 leading-relaxed">Harmonious technologies that support both human advancement and environmental balance.</p>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <h3 class="text-2xl font-semibold mb-4">Ecological Harmony</h3>
+                        <p class="text-gray-300 leading-relaxed">Implement regenerative technologies that not only prevent environmental damage but actively restore natural ecosystems, promoting a 200% increase in biodiversity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Us</h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <p class="text-gray-300 leading-relaxed">Founded in 2020 by a collective of scientists, engineers, and consciousness researchers, NDEAVR emerged from a shared vision to bridge the gap between ancient wisdom and modern technology. Our journey began when our team discovered remarkable correlations between quantum physics principles and ancient texts describing advanced energy systems.</p>
+                    <p class="text-gray-300 leading-relaxed">Our mission is to unlock humanity's full potential through the rediscovery and implementation of lost technologies. We are guided by our core values of scientific integrity, environmental stewardship, and the democratization of advanced technologies. Every discovery we make is evaluated not just for its technical merit, but for its potential to benefit humanity as a whole.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Partners Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"NDEAVR's consciousness enhancement technology has revolutionized our research facility. We've seen a 40% increase in breakthrough innovations since implementing their protocols."</p>
+                        <div class="font-semibold">Dr. Sarah Chen</div>
+                        <div class="text-sm text-gray-400">Research Director, Quantum Futures Institute</div>
+                    </div>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The zero-point energy system we developed with NDEAVR has completely transformed our manufacturing process. Energy costs down 85%, productivity up 60%."</p>
+                        <div class="font-semibold">Marcus Johnson</div>
+                        <div class="text-sm text-gray-400">Chief Innovation Officer, EcoTech Solutions</div>
+                    </div>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Implementing NDEAVR's regenerative technologies has restored over 10,000 acres of degraded land in just 18 months. The results are beyond our wildest expectations."</p>
+                        <div class="font-semibold">Dr. Luis Rodriguez</div>
+                        <div class="text-sm text-gray-400">Environmental Director, Global Restoration Project</div>
+                    </div>
+                    <div class="bg-gray-800/50 rounded-2xl p-8 hover:bg-gray-800 transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The consciousness expansion program has transformed our entire organization. Team creativity is up 150%, and problem-solving efficiency has doubled."</p>
+                        <div class="font-semibold">Emma Thompson</div>
+                        <div class="text-sm text-gray-400">Head of Innovation, Future Dynamics Corp</div>
                     </div>
                 </div>
             </div>
@@ -93,26 +184,71 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-4">
-                    <div class="bg-gray-700/50 rounded-lg">
+                    <div class="bg-gray-700/50 rounded-lg hover:bg-gray-700/70 transition duration-300">
                         <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
-                            <span class="font-semibold">What are lost technologies?</span>
+                            <span class="font-semibold">What exactly are lost technologies?</span>
                             <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 1}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                             </svg>
                         </button>
                         <div x-show="selected == 1" class="p-6 pt-0">
-                            <p class="text-gray-300">Lost technologies refer to advanced scientific and spiritual knowledge that has been forgotten or hidden throughout human history.</p>
+                            <p class="text-gray-300">Lost technologies refer to advanced scientific and spiritual knowledge that existed in ancient civilizations but has been forgotten or suppressed over time. These include advanced energy systems, consciousness expansion techniques, and environmental restoration methods that were once known but have been lost to history.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg hover:bg-gray-700/70 transition duration-300">
+                        <button @click="selected !== 2 ? selected = 2 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">How does your energy technology work?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 2}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 2" class="p-6 pt-0">
+                            <p class="text-gray-300">Our energy technology harnesses quantum vacuum fluctuations and zero-point energy fields to generate clean, sustainable power. By tapping into the fundamental fabric of space-time, we can access virtually unlimited energy without environmental impact.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg hover:bg-gray-700/70 transition duration-300">
+                        <button @click="selected !== 3 ? selected = 3 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">Is consciousness enhancement safe?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 3}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 3" class="p-6 pt-0">
+                            <p class="text-gray-300">Yes, our consciousness enhancement protocols have undergone rigorous testing and certification. They combine traditional meditation techniques with modern neuroscience, creating a safe and natural way to expand human awareness and potential.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg hover:bg-gray-700/70 transition duration-300">
+                        <button @click="selected !== 4 ? selected = 4 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">How can I participate in your research?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 4}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 4" class="p-6 pt-0">
+                            <p class="text-gray-300">We regularly conduct research programs and trials for our technologies. Interested individuals can apply through our website or contact us directly. We welcome both scientific collaborators and consciousness exploration participants.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg hover:bg-gray-700/70 transition duration-300">
+                        <button @click="selected !== 5 ? selected = 5 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold">What are your future development plans?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 5}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 5" class="p-6 pt-0">
+                            <p class="text-gray-300">We're currently expanding our research into quantum healing technologies, advanced transportation systems, and enhanced communication methods. Our goal is to create a comprehensive ecosystem of sustainable, consciousness-based technologies.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-gray-900">
-            <div class="container mx-auto px-6 text-center">
+        <section class="py-24 bg-gray-900 relative">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-10"></div>
+            <div class="container mx-auto px-6 text-center relative z-10">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform the Future?</h2>
-                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join us in uncovering revolutionary technologies that will reshape humanity's future.</p>
-                <a href="https//www.ndeavr.com/making-contact" class="inline-block px-8 py-4 text-lg font-semibold bg-blue-600 hover:bg-blue-700 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">Make Contact</a>
+                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join us in uncovering revolutionary technologies that will reshape humanity's future. Together, we can create a world of unlimited potential and sustainable prosperity.</p>
+                <a href="https://www.ndeavr.com/making-contact" class="inline-block px-8 py-4 text-lg font-semibold bg-blue-600 hover:bg-blue-700 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">Begin Your Journey</a>
             </div>
         </section>
     </main>
@@ -122,25 +258,28 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">NDEAVR</h3>
-                    <p class="text-gray-400">Developing technologies to help humanity</p>
+                    <p class="text-gray-400">Developing technologies to help humanity advance into a new era of consciousness and sustainability.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <a href="mailto:git@ndeavr.com" class="text-gray-400 hover:text-blue-400 transition duration-300">git@ndeavr.com</a>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Links</h4>
+                    <h4 class="text-lg font-semibold mb-4">Navigation</h4>
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition duration-300">Benefits</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition duration-300">About</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition duration-300">Testimonials</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-blue-400 transition duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">Terms of Service</a></li>
+                        <li><a href="https://Ndeavr.github.io/uncovering-lost-technologies-2025-02-05-id4ko/privacy.html" class="text-gray-400 hover:text-blue-400 transition duration-300">Privacy Policy</a></li>
+                        <li><a href="https://Ndeavr.github.io/uncovering-lost-technologies-2025-02-05-id4ko/terms.html" class="text-gray-400 hover:text-blue-400 transition duration-300">Terms of Service</a></li>
+                        <li><a href="https://Ndeavr.github.io/uncovering-lost-technologies-2025-02-05-id4ko/blog.html" class="text-gray-400 hover:text-blue-400 transition duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -149,5 +288,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
